@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="..\..\source\main.c" />
     <ClCompile Include="..\..\source\preset.c" />
+    <ClCompile Include="..\..\source\show.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\preset.h" />
+    <ClInclude Include="..\..\include\show.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
